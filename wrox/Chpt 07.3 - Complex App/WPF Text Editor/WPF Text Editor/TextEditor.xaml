@@ -1,0 +1,39 @@
+﻿<Window x:Class="TextEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Text Editor" Height="460" Width="600">
+    <Grid>
+        <ToolBarTray Height="26" HorizontalAlignment="Left" Name="ToolBarPanel1" VerticalAlignment="Top" Width="578">
+            <ToolBar Height="26"  Name="ToolBar1" VerticalAlignment="Top" Width="575" HorizontalContentAlignment="Left">
+            <Button Name="tbrClear" ToolTip="Clear" OpacityMask="Black">    
+                <Image Source="file:///C:/Users/Kush/My Icons/VS2010ImageLibrary/VS2010ImageLibrary/Actions/32bitcolor bitmaps/16x16/NewDocumentHS.BMP" Opacity="1" OpacityMask="Black"></Image>
+            </Button>
+            <Separator Padding="1" />
+            <Button Name="tbrRed" ToolTip="Red">
+                <Image Source="file:///C:/Users/Kush/My Icons/VS2010ImageLibrary/VS2010ImageLibrary/Actions/32bitcolor bitmaps/16x16/Color_fontHS.BMP" OpacityMask="Black"></Image>
+            </Button>
+            <Button Name="tbrBlue" ToolTip="Blue">
+                <Image Source="file:///C:/Users/Kush/My Icons/VS2010ImageLibrary/VS2010ImageLibrary/Actions/32bitcolor bitmaps/16x16/Color_lineHS.BMP" OpacityMask="Black"></Image>
+            </Button>
+            <Separator />
+
+            <Button Name="tbrUpperCase" ToolTip="Upper Case" Foreground="{x:Null}" Background="{x:Null}">
+                <Image Source="file:///C:/Users/Kush/My Icons/VS2010ImageLibrary/VS2010ImageLibrary/Actions/32bitcolor bitmaps/16x16/FillUpHS.BMP" OpacityMask="Black"></Image>
+            </Button>
+            <Button Name="tbrLowerCase" ToolTip="Lower Case">
+                <Image Source="file:///C:/Users/Kush/My Icons/VS2010ImageLibrary/VS2010ImageLibrary/Actions/32bitcolor bitmaps/16x16/FillDownHS.BMP" OpacityMask="Black"></Image>
+            </Button>
+            <Separator />
+            <Button Name="tbrHelpAbout" ToolTip="About" OpacityMask="Fuchsia">
+                <Image Source="file:///C:/Users/Kush/My Icons/VS2010ImageLibrary/VS2010ImageLibrary/Annotations_Buttons/24bitcolor_bitmaps/Help.BMP" OpacityMask="Magenta" Name="Image1"></Image>
+            </Button>
+            
+        </ToolBar>
+        </ToolBarTray>   
+            
+        <StatusBar Height="23" HorizontalAlignment="Left" Margin="1.5,399,0,0" Name="StatusBar1" VerticalAlignment="Top" Width="576" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+            <StatusBarItem Content="Ready" Name="sbiStatus" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Bottom" />
+        </StatusBar>
+        <TextBox HorizontalAlignment="Stretch" Margin="7,32,0,37" Name="txtEdit" VerticalAlignment="Stretch" Width="576" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" OpacityMask="Black" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" />
+    </Grid>
+</Window>

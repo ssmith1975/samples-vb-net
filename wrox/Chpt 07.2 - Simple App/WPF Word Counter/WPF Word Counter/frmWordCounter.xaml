@@ -1,0 +1,17 @@
+﻿<Window x:Class="frmWordCounter"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Word Counter" Height="300" Width="442" WindowStartupLocation="CenterScreen" Name="frmWordCounter">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="354*" />
+            <ColumnDefinition Width="66*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="Enter some text for counting:" Height="28" HorizontalAlignment="Left" Margin="8,8,0,0" Name="Label1" VerticalAlignment="Top" Width="180" />
+        <TextBox Height="190" HorizontalAlignment="Left" Margin="13,34,0,0" Name="txtWords" VerticalAlignment="Top" Width="390" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+        <RadioButton Content="Chars" Height="16" HorizontalAlignment="Left" Margin="12,233,0,0" Name="radCountChars" VerticalAlignment="Top" IsChecked="True" />
+        <RadioButton Content="Words" Height="16" HorizontalAlignment="Right" Margin="0,233,239,0" Name="radCountWords" VerticalAlignment="Top" />
+        <Label Content="The results are:" Height="28" HorizontalAlignment="Left" Margin="129,228,0,0" Name="Label2" VerticalAlignment="Top" Width="100" />
+        <Label Height="28" HorizontalAlignment="Right" Margin="0,228,17,0" Name="lblResults" VerticalAlignment="Top" Width="175" Grid.ColumnSpan="2" />
+    </Grid>
+</Window>

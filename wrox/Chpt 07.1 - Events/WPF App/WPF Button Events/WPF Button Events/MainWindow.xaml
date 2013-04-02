@@ -1,0 +1,8 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WPF Button Events" Height="100" Width="300">
+    <Grid Width="277">
+        <Button Content="Hello World!" Height="25" HorizontalAlignment="Left" Margin="5,24,0,0" Name="btnSayHello" VerticalAlignment="Top" Width="260" />
+    </Grid>
+</Window>
