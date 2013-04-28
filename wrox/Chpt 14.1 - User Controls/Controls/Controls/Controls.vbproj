@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4A94DAB7-AC1C-4638-B097-6CF2645B7D90}</ProjectGuid>
+    <ProjectGuid>{CE70B70B-994D-468D-AEBE-61B58BB0FDB6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>Controls.My.MyApplication</StartupObject>
     <RootNamespace>Controls</RootNamespace>

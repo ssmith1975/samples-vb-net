@@ -69,6 +69,6 @@
         strResults = strData.Replace("Hello", "Goodbye")
 
         'Display the new string
-        +MessageBox.Show(strResults, "Strings")
+        MessageBox.Show(strResults, "Strings")
     End Sub
 End Class

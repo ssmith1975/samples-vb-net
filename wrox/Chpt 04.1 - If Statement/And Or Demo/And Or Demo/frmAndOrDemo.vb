@@ -41,7 +41,7 @@
 
         'Compare the name
         If String.Compare(strName, "BRYAN", True) = 0 Then
-            MessageBox.Show("Hhello, Bryan!", "And Or Demo")
+            MessageBox.Show("Hello, Bryan!", "And Or Demo")
         End If
     End Sub
 End Class
